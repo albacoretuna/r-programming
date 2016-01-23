@@ -38,3 +38,28 @@ x[1]
 
 y <- "abc"
 mode(y)
+
+# String functions 
+u <- paste("hi", "what did you say?")
+u
+
+v <- strsplit(u, " ")
+v
+
+# matrices 
+m <- rbind(c(1,4), c(2,2))
+m
+
+# subsetting matrices 
+m[1,2] # row one, col 2 
+m[1,]  # row one 
+m[,2]  # col two 
+
+
+# lists 
+
+hist(Nile)
+hn <- hist(Nile)
+hn
+
+str(hn)

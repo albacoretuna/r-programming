@@ -16,3 +16,4 @@ dir.create('a_dir')
 
 # remove a directory with everything inside 
 unlink('testdir', recursive = TRUE)
+
